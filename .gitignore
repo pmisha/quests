@@ -1,0 +1,15 @@
+node_modules/
+backend/venv/
+__pycache__/
+*.pyc
+.env
+firebase-debug.log
+ui-debug.log
+.DS_Store
+dist/
+build/
+.firebase/
+mock-cred.json
+frontend/node_modules/
+frontend/dist/
+frontend/.eslint*

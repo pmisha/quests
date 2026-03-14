@@ -1,0 +1,11 @@
+INFO:     Started server process [7021]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55996 - "OPTIONS /api/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56006 - "POST /api/users HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:55996 - "OPTIONS /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56006 - "POST /api/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56006 - "GET /api/quests/templates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56006 - "POST /api/users HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:55996 - "POST /api/users/ HTTP/1.1" 200 OK
